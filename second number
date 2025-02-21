@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] number = { 0, 1, 2, 3, 4, 5 };
+
+
+        if (number.Length >= 2)
+        {
+
+            int secondNumber = number[1];
+            Console.WriteLine("the second number is : " + secondNumber);
+        }
+        else {
+            Console.WriteLine("There is no 2n number");
+        
+        }
+    }
+
+}
