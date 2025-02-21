@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string a = "600";
+        if (int.TryParse(a, out int result))
+        {
+            Console.WriteLine("The string is convert into integer : " +result);
+
+        }
+        else {
+
+
+            Console.WriteLine("string a is convert to b int :");
+    }
+    }
+}
