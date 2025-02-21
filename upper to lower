@@ -1,0 +1,27 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Enter the string:");
+        string text = Console.ReadLine();
+
+        Console.Write("To convert to Uppercase(U), To convert to Lowercase(L):");
+
+        string choice = Console.ReadLine().Trim().ToLower();
+
+        if (choice == "u")
+        {
+            Console.WriteLine("To uppercase : " + text.ToUpper());
+        }
+        else if (choice == "l")
+        {
+            Console.WriteLine("To Lowercase :"  + text.ToLower());
+        }
+        else 
+        {
+            Console.WriteLine("choose U or L to convert ");
+        }
+    }
+}
