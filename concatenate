@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string a = " Welcome to";
+        string b = "C# Programming";
+
+
+     string result = a + " " + b;
+        Console.WriteLine(result);
+
+}
+    
+}
