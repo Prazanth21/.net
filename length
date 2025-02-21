@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string a = " Prasanth ";
+
+
+        int name  = a.Length;
+        Console.WriteLine("length of the string is :" +name );
+    }
+
+}
