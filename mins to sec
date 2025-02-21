@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static int MinutesToSecond(int minute)
+    {
+        return minute * 60;
+
+    }
+    static void Main()
+    {
+        Console.WriteLine("Enter the minute:");
+        int minutes = int.Parse(Console.ReadLine());
+        int second = MinutesToSecond(minutes);
+
+        Console.WriteLine($"{minutes}minutes is equal to {second}second : ");
+
+
+
+    }
+}
