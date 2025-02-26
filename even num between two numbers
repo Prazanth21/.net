@@ -1,0 +1,31 @@
+using System;
+using System.Diagnostics.Metrics;
+
+class Program 
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Enter a first number");
+        int start = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Enter a second number");
+        int end = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine($"even numbers between {start} and {end}");
+
+        for (int i = start; i <= end; i++)
+        {
+            if (i % 2 == 0)
+            {
+                Console.WriteLine(i + " ");
+            }
+        }Console.WriteLine( );
+    }
+
+}
+
+//Enter a first number: 1
+
+//Enter a second number: 10
+//even numbers between 1 and 10
+//2 4 6 8 10
