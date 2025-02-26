@@ -1,0 +1,26 @@
+using System;
+using System.Diagnostics.Metrics;
+
+class Program 
+{
+    static void Main(string[] args) 
+    {
+        Console.WriteLine("Enter a String : ");
+        string text = Console.ReadLine();
+
+        if (string.IsNullOrWhiteSpace(text))
+        {
+            Console.WriteLine("no words found in the entered string");
+        }
+
+        else
+        {
+            string[] word = text.Split(new char[] { ' ', '\t', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            Console.WriteLine($"Count of the entered string is :  {word.Length }");
+        }
+    }
+}
+// output:
+//Enter a String :
+//how are you?
+//Count of the entered string is :  3
